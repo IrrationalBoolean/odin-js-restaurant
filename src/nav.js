@@ -1,8 +1,9 @@
 import './nav.css'
+import makeHome from './home'
 
 const body = document.querySelector('body')
 const navOptions = {
-  home: 'home',
+  home: makeHome,
   menu: 'menu',
   about: 'about',
 }
@@ -30,15 +31,13 @@ export default function nav(){
 function makeMenuButtons(bar, arr){
   for (const prop in arr){
     const element = document.createElement('li')
-    const eLink = document.createElement('a')
 
     element.classList.add("nav-option")
 
-    eLink.classList.add("menu-option")
-    eLink.innerText = prop
-    eLink.href = "#"
+    element.innerText = prop
+    element.onclick = typeof arr[prop] === 'function' ? arr[prop] : null
+    
 
-    element.appendChild(eLink)
     bar.appendChild(element)
   }
 }
