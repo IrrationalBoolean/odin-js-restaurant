@@ -1,11 +1,13 @@
 import './nav.css'
 import makeHome from './home'
+import makeMenu from './menu'
+import makeAbout from './about'
 
 const body = document.querySelector('body')
 const navOptions = {
   home: makeHome,
-  menu: 'menu',
-  about: 'about',
+  menu: makeMenu,
+  about: makeAbout,
 }
 
 export default function nav(){
