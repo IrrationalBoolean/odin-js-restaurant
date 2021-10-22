@@ -1,0 +1,28 @@
+
+
+.navbar {
+  background-color: #4A4;
+}
+
+.nav-option {
+  list-style-type: none;
+  color: white;
+  display: inline-block;
+  margin: 5vh;
+  font-size: 5vh;
+}
+
+.nav-list {
+  text-align: center;
+   box-shadow: 0 10px 35px grey;
+}
+
+.center {
+  width: 100% ;
+}
+
+.menu-option {
+  text-decoration: none;
+  color: white;
+}
+
