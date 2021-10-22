@@ -46,3 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+* a, footer, {
+  font-family: 'Inconsolata', monospace;
+}
