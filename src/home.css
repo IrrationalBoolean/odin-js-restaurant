@@ -1,11 +1,57 @@
 #main {
   width: 100%;
-  height: 1000px;
+  margin: 0 0 7vh;
 }
 
 .home {
   background-color: #FFC898;
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hours-table {
+  font-size: 3vmin;
+}
+
+th {
+  padding: 1vmin;
+  width: 33vmin;
+  margin: 5vmin;
+}
+
+.about-img {
+  height: 400px;
+  width: 700px;
+  border: 1px solid #DDA676;
+  padding: 2vmin;
+  background-color: #FFEABA;
+}
+
+.tagline {
+  font-size: 8vmin;
+  margin: 5vmin;
+}
+
+.quoteBox {
+  display: flex;
+  width: 50%;
+  margin: 4vmin;
+  gap: 2vmin;
+}
+
+.quote {
+  font-size: 4vmin;
+}
+
+.quote-author {
+  font-size: 4.5vmin;
+  align-self: flex-end;
+}
+
+.address {
+  margin: 5vmin;
 }
 
