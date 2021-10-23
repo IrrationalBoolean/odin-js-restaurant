@@ -26,7 +26,7 @@ th {
   border: 1px solid #DDA676;
   padding: 2vmin;
   background-color: #FFd8b6;
-  box-shadow: 0 0 15px #644;
+  box-shadow: 0 0 5px #644;
   width: auto;
 }
 
@@ -39,7 +39,10 @@ th {
   display: flex;
   width: 50%;
   margin: 4vmin;
+  padding: 4vmin;
   gap: 2vmin;
+  background-color: #DDA676;
+  box-shadow: 0 0 5px #644;
 }
 
 .quote {
@@ -49,6 +52,9 @@ th {
 .quote-author {
   font-size: 4.5vmin;
   align-self: flex-end;
+  background-color: #FFC898;
+  box-shadow: 0 0 5px #644;
+  padding: 2vmin;
 }
 
 .address {

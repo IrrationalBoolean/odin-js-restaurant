@@ -69,7 +69,7 @@ function addHero(container){
 
   container.appendChild(tagline)
   container.appendChild(img1)
-  container.appendChild(quoteBox)
   addHours(container)
+  container.appendChild(quoteBox)
   container.appendChild(address)
 }
