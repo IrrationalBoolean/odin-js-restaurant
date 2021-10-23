@@ -55,13 +55,16 @@ function addMenuItems(container){
     itemBox.classList.add(`${a.meal.toLowerCase()}`)
     itemPrice.classList.add('itemPrice')
     itemName.classList.add('nameBox')
+    itemDescription.classList.add("item-desc")
 
     itemName.innerText = `${a.origin} ${a.plant}`
     itemDesc.innerText = a.desc
     itemPrice.innerText = a.price
+    itemDescription.innerText = a.description
 
     nameBox.appendChild(itemName)
     nameBox.appendChild(itemDesc)
+    nameBox.appendChild(itemDescription)
     itemBox.appendChild(nameBox)
     itemBox.appendChild(itemPrice)
     container.appendChild(itemBox)

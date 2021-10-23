@@ -15,7 +15,7 @@
 
 .itemBox {
   display: flex;
-  min-width: 40%;
+  width: 40%;
   justify-content: space-between;
   align-items: center;
   font-size: 2vmin;
@@ -42,11 +42,15 @@
 }
 
 .mealText {
-  font-size: 5vmin;
-  margin: 5vmin;
+  font-size: 10vmin;
+  margin: 3vmin;
 }
 
 .nameBox {
   font-size: 2.5vmin;
+}
+
+.item-desc {
+  width : 70% 
 }
 

@@ -55,7 +55,7 @@ function addHero(container){
   const address = document.createElement("p")
 
   img1.src = "https://unsplash.it/800/400"
-  img1.classList.add("about-img")
+  img1.classList.add("home-img")
   tagline.classList.add("tagline")
   quoteBox.classList.add("quoteBox")
   quote.classList.add("quote")

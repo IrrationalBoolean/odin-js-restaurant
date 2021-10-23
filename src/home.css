@@ -22,17 +22,17 @@ th {
   margin: 5vmin;
 }
 
-.about-img {
-  height: 400px;
-  width: 700px;
+.home-img {
   border: 1px solid #DDA676;
   padding: 2vmin;
-  background-color: #FFEABA;
+  background-color: #FFd8b6;
+  box-shadow: 0 0 15px #644;
+  width: auto;
 }
 
 .tagline {
-  font-size: 8vmin;
-  margin: 5vmin;
+  font-size: 10vmin;
+  margin: 3vmin;
 }
 
 .quoteBox {
