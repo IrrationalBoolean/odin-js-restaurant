@@ -14,8 +14,6 @@ export default function makeHome(){
   while (main.firstChild) {
     main.removeChild(main.firstChild)
   }
-  console.log('menu')
-  console.log(menuData)
 
   const content = document.createElement("div")
   content.classList.add("menu")
@@ -33,7 +31,6 @@ function addMeals(container){
     meal.textContent = meals[i]
     meal.style.order = `${i * 2}`
     container.appendChild(meal)
-    console.log(meals[i])
   }
 }
 
@@ -41,7 +38,6 @@ function addMeals(container){
 function addMenuItems(container){
   for (let i = 0; i < menuData.length; i++) {
     let a = menuData[i]
-    console.log(menuData[i])
     const itemBox = document.createElement('div')
     const nameBox = document.createElement('div')
     const itemName = document.createElement('h2')

@@ -17,7 +17,6 @@ export default function makeHome(){
   while (main.firstChild) {
     main.removeChild(main.firstChild)
   }
-  console.log('home')
 
   const content = document.createElement("div")
   content.classList.add("home")
@@ -42,8 +41,6 @@ function addHours(container){
     tableRow.appendChild(tableHours)
     hourTable.appendChild(tableRow)
     container.appendChild(hourTable)
-    console.log(hours[day])
-    console.log(day)
   }
 }
 function addHero(container){

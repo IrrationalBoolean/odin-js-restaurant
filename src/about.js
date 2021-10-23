@@ -6,7 +6,6 @@ export default function makeAbout() {
   while (main.firstChild) {
     main.removeChild(main.firstChild)
   }
-  console.log('about')
 
   const content = document.createElement("div")
   const header = document.createElement("h1")
