@@ -8,8 +8,8 @@
   list-style-type: none;
   color: white;
   display: inline-block;
-  margin: 5vh;
-  font-size: 5vh;
+  margin: 5vmin;
+  font-size: 5vmin;
   transition: color 1s;
   user-select: none;
 }

@@ -16,7 +16,7 @@ export default function nav(){
   const image = document.createElement('img')
 
   image.alt = "IDK, Might be my BFF Jill, random unsplash image"
-  image.src = "https://unsplash.it/1200/200"
+  image.src = "https://unsplash.it/1800/200"
   image.classList.add('center')
 
 
