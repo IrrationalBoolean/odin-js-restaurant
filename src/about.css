@@ -24,6 +24,8 @@
 }
 
 .about-img {
+  height: 700px;
+  width: 700px;
   min-width: 30%;
   border: 1px #A676CC solid;
   padding: 2vmin;
